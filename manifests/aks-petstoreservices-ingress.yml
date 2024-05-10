@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: ingress-petstoreservices
   annotations:
-    kubernetes.io/ingress.class: nginx
+    spec.ingressClassName: nginx
 spec:
   rules:
   - http:
